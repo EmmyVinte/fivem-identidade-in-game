@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.containerPassport {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: transparent;
+}
+
+.backgroundPassport {
+    display: flex;
+    flex-direction: column;
+
+    min-width: 400px;
+    min-height: 500px;
+    max-width: 500px;
+    max-height: 600px;
+
+    background-color: #333;
+    border-radius: 1rem;
+    padding: 20px 30px;
+    margin: 20px;
+    float: right;
+}
+
+.infosPassport {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.iconPassport {
+    padding-right: 10px;
+    height: 47px;
+}
+
+.boxTextsPassport {
+
+}
+
+.textPassport {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+#inputNome, 
+#inputIdade, 
+#inputTelefone, 
+#inputPassaporte,
+#inputHabilitacao, 
+#inputBanco, 
+#inputDinheiro {
+    color: rgb(192, 192, 192);
+    font-weight: 300;
+    font-size: 1.3rem;
+}

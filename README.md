@@ -1,5 +1,3 @@
-# identidade-fivem
-
 # FRONT END
 ∟ Emmy Vinte#5084
 
